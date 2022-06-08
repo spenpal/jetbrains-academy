@@ -14,6 +14,7 @@ Implement the flowchart above. Please, follow our recommendations:
 *   Copy the messages below carefully. The tests will check if the correct message appears in the correct order. Please, do not add extra lines or characters.
 
 
+
     msg_0 = "Enter an equation"
     msg_1 = "Do you even know what numbers are? Stay focused!"
     msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?"
