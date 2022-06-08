@@ -134,7 +134,7 @@ Implement the flowchart with two functions. Please, mind the recommendations bel
     msg_8 = " ... very, very lazy"
     msg_9 = "You are"
 
-##### Example
+### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
 
 **Example 1:**
@@ -167,7 +167,7 @@ To complete the project, you need to implement the flowchart below. The old bloc
 
 ![](https://ucarecdn.com/5a9953cf-380a-4a12-a88b-bb45edd5e890/)
 
-##### Objectives
+### Objectives
 
 Implement the flowchart. Please, follow the recommendations below:
 
@@ -179,7 +179,7 @@ Implement the flowchart. Please, follow the recommendations below:
     msg_11 = "Don't be silly! It's just one number! Add to the memory? (y / n)"
     msg_12 = "Last chance! Do you really want to embarrass yourself? (y / n)"
 
-##### Example
+### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
 
 **Example 1:**
