@@ -13,12 +13,15 @@ Implement the flowchart above. Please, follow our recommendations:
 *   Don't use the built-in `eval()` function to calculate from a string, please! It'll be much more useful to you if you try to apply the tools you've learned in theory and practice to use them for specific tasks;
 *   Copy the messages below carefully. The tests will check if the correct message appears in the correct order. Please, do not add extra lines or characters.
 
+```
+msg_0 = "Enter an equation"
 
-    msg_0 = "Enter an equation"
-    msg_1 = "Do you even know what numbers are? Stay focused!"
-    msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?"
+msg_1 = "Do you even know what numbers are? Stay focused!"
 
-##### Example
+msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?"
+```
+
+### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
 
 **Example 1:**
@@ -87,8 +90,10 @@ To complete this stage, you need to implement the flowchart above. While doing i
 *   There are no tests when `M` is negative. For example, there will be no test input like this: `-M + 6`;
 *   Copy two messages. The tests will check if the correct message appears in the correct order. Don't add extra lines or characters.
 
-
-    msg_4 = "Do you want to store the result? (y / n):" msg_5 = "Do you want to continue calculations? (y / n):"
+```
+msg_4 = "Do you want to store the result? (y / n):" 
+msg_5 = "Do you want to continue calculations? (y / n):"
+```
 
 ### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
@@ -128,11 +133,12 @@ Implement the flowchart with two functions. Please, mind the recommendations bel
 *   Notice that the function `is_one_digit()` is supposed to check whether it has an integer value in the _**mathematical sense**_, e.g. 3.0 is an integer, 3.1 is a non-integer number. Thus, do **NOT** check the type of variable, but the number itself. You can use a special build-in method `.is_integer()` on a float variable to check if a number is an integer.
 *   Copy the messages carefully. The tests will check if the correct message appears in the correct order. Don't add extra lines or characters.
 
-
-    msg_6 = " ... lazy"
-    msg_7 = " ... very lazy"
-    msg_8 = " ... very, very lazy"
-    msg_9 = "You are"
+```
+msg_6 = " ... lazy"
+msg_7 = " ... very lazy"
+msg_8 = " ... very, very lazy"
+msg_9 = "You are"
+```
 
 ### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
@@ -174,10 +180,13 @@ Implement the flowchart. Please, follow the recommendations below:
 *   Don't use the built-in function `eval()` to calculate from a string;
 *   Copy the messages below. The tests will check if the correct message appears in the correct order. Don't add extra lines or characters.
 
+```
+msg_10 = "Are you sure? It is only one digit! (y / n)"
 
-    msg_10 = "Are you sure? It is only one digit! (y / n)"
-    msg_11 = "Don't be silly! It's just one number! Add to the memory? (y / n)"
-    msg_12 = "Last chance! Do you really want to embarrass yourself? (y / n)"
+msg_11 = "Don't be silly! It's just one number! Add to the memory? (y / n)"
+
+msg_12 = "Last chance! Do you really want to embarrass yourself? (y / n)"
+```
 
 ### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
