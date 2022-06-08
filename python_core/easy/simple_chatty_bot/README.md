@@ -24,6 +24,7 @@ Output:
 
 You can change the text if you want but print exactly two lines.
 Next, we will use **Aid** and **2020** as your bot's name and its birth year, but you can change it if you need to.
+
 ---
 ## Stage 2
 ### Description
