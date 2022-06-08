@@ -151,7 +151,7 @@ If a user enters an incorrect answer, the bot may print a message:
 
 The program should stop on the correct answer and print `Congratulations, have a nice day!` at the end.
 
-##### Example
+### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
 **Example 1:** _a dialogue with the final version of your bot_
 
