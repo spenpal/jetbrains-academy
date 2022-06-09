@@ -124,7 +124,7 @@ So far, in this stage you are interested in four values: the number of monthly p
 
 ![](https://i.gyazo.com/81be29963427431105a19d7d687eb121.png)
 
-**The number of payments:**
+**The number of payments:**  
 ![](https://i.gyazo.com/0c232779effde84ec82b5694237780ef.png)
 
 ### Objectives
@@ -165,10 +165,10 @@ The greater-than symbol followed by a space (`>` ) represents the user input. No
 Let’s take a closer look at **Example 1**.
 You know the loan principal, the loan interest and want to calculate the number of monthly payments. What do you do?
 
-1) You need to know the nominal interest rate. It is calculated like this:
+1) You need to know the nominal interest rate. It is calculated like this:  
 ![](https://i.gyazo.com/8c9b7f407c9640f50cf501ae7b4490a6.png)
 
-2) Now you can calculate the number of months:
+2) Now you can calculate the number of months:  
 ![](https://i.gyazo.com/91b526fb714731a45b9e52bf18a41c32.png)
 
 3) You need an integer number, so let’s round it up. Notice that the user will pay the same amount every month for 97 months, and in the 98th month the user will pay _0.71..._ of the monthly payment. So, there are 98 months to pay.
