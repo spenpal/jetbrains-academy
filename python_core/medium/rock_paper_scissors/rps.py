@@ -1,5 +1,6 @@
 import random
 
+
 def outcome(user, computer, rating):
     if computer in rps_counter[user]:
         print(f'Sorry, but the computer chose {computer}')
@@ -9,8 +10,9 @@ def outcome(user, computer, rating):
     else:
         print(f'There is a draw ({computer})')
         rating += 50
-    
+
     return rating
+
 
 # MAIN #
 moves = ['rock', 'paper', 'scissors']
@@ -26,10 +28,12 @@ print('Hello,', name)
 
 # Get user rating
 with open('rating.txt') as f:
-    scores = [tuple(line.split()) for line in f]
-    scores = dict(scores)
+    scores = {}
+    for line in f:
+        name, score = line.split()
+        scores[name] = score
     rating = int(scores.get(name, '0'))
-    
+
 # User-defined moves
 user_moves = input().strip()
 if user_moves:
@@ -38,8 +42,8 @@ if user_moves:
         other_moves = moves[i + 1:] + moves[:i]
         half = len(other_moves) // 2
         rps_counter[move] = other_moves[:half]
-      
-valid_inputs = moves + ['!exit', '!rating']    
+
+valid_inputs = moves + ['!exit', '!rating']
 print("Okay, let's start")
 
 # Start game
@@ -48,13 +52,13 @@ while True:
     while user not in valid_inputs:
         print('Invalid input')
         user = input()
-        
+
     if user == '!exit': break
-    if user == '!rating': 
+    if user == '!rating':
         print('Your rating:', rating)
         continue
-    
+
     computer = random.choice(moves)
     rating = outcome(user, computer, rating)
-    
+
 print('Bye!')
